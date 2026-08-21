@@ -18,8 +18,8 @@ concurrency:
 jobs:
   deploy:
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: Memoria Frame Makers
+      url: https://github.com/TamilSelvanRaja/Memoria-Frame
 
     runs-on: ubuntu-latest
 
